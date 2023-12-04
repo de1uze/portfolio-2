@@ -6,6 +6,8 @@ import TypeWriterEffect from 'react-typewriter-effect';
 import { animateScroll } from 'react-scroll';
 import { saveAs } from "file-saver";
 import { Link } from 'react-scroll';
+import { useNavigate } from "react-router-dom";
+
 
 const Home = () => {
   const [number, setNumber] = useState(0);
@@ -14,8 +16,7 @@ const Home = () => {
   const textContent = useRef();
   const handleDownload = () => {
     saveAs(
-      "google drive url",
-      "Resume.pdf"
+      "https://drive.google.com/file/d/1OTwRfawYFCC9gOO9iLRrwyZ7W0wWN11e/view?usp=sharing",
     )
   }
 
@@ -35,16 +36,18 @@ const Home = () => {
     }
   }
 
+ 
+
 
   return (
     <div className='home' id='home'>
       <div className="home-text">
         <h1>
           <span className='gradientText'>
-            Hi, I'm Lorem!
+            Hi, I'm Pratik Shringarpure!
           </span>
           <span>
-            <span onClick={handleChange}>
+            <span>
               👋🏾
             </span>
             <span ref={textContent} style={{ display: 'none' }}>
@@ -63,12 +66,12 @@ const Home = () => {
           typeSpeed={35}
         />
         <div className="btns">
-          <Link className='btn1' activeClass="active" to="mail" spy={true} smooth={true} offset={0} duration={500}>
-            Hire Me
-          </Link>
-
-          <div onClick={handleDownload} className='btn2'>View Resume</div>
-        </div>
+          
+          <a  className="btn1" href="mailto:shringarpure95@gmail.com" >Hire me</a>
+         
+          <a  href="https://drive.google.com/file/d/1OTwRfawYFCC9gOO9iLRrwyZ7W0wWN11e/view?usp=sharing" className='btn2'>View Resume</a>
+         
+          </div>
       </div>
 
     </div >

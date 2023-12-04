@@ -5,21 +5,36 @@ import "../styles/Projects.css";
 const Projects = () => {
   const projectsInfo = [
     {
-      name: "Project 1",
-      desc: "congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed",
-      liveLink: "website url",
-      githubLink: "https://github.com/",
-      techs: ["HTML", "CSS", "TypeScript"],
-      isOpenSource: true,
+      name: "Student Ed-Tech Platform",
+      desc: "A simple Student Dashboard with Login and Sign-up functionality. A replica of ZEN Class Student Dashboard using React",
+      liveLink: "https://zenclass-dashboard.vercel.app/",
+      githubLink: "https://github.com/de1uze/Zenclass-Dashboard",
+      techs: ["HTML", "CSS", "React"]
+      
     },
     {
-      name: "Project 2",
-      desc: "congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed",
-      liveLink: "website url",
-      githubLink: "https://github.com/",
-      techs: ["React", "Node", "MongoDB", "Socket.io", "Redux"],
-      isOpenSource: true,
+      name: "Foodlify | A Recipe Suggestion Website",
+      desc: "College Capstone Project | A Realtime recipe and dish suggestion built on React and Mongo DB.Uses Python machine learning collaboration for recipe.",
+      liveLink: "https://foodlify-omega.vercel.app/",
+      githubLink: "https://github.com/de1uze/Foodlify",
+      techs: ["React", "Node", "MongoDB","Tailwind CSS","Machine Learning"]
     },
+    {
+      name: "A Gym website",
+      desc: "A website for gym. Displaying trainers, pricing, environment made using React",
+      liveLink: "https://gym-rat-deploy.onrender.com/",
+      githubLink: "https://github.com/de1uze/Gym-rat",
+      techs: ["React", "HTML","Css"]
+    
+    },
+    {
+      name: "Simple Netflix Clone",
+      desc: "Tutorial Based Netflix clone. Fetching data for Movie API      ",
+      liveLink: "https://ntflx-clone-ivory.vercel.app/",
+      githubLink: "https://github.com/de1uze/Ntflx-clone",
+      techs: ["React", "HTML" , "CSS"],
+      isOpenSource: true,
+    }
   ];
   return (
     <div className="Projects" id="projects">

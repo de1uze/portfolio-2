@@ -22,9 +22,7 @@ const Nav = ({ isDarkMode, handleToggle }) => {
       <li><Link onClick={handleClick} activeClass="active" to="about" spy={true} smooth={true} offset={-80} duration={500}>
         About
       </Link></li>
-      <li><Link onClick={handleClick} activeClass="active" to="mail" spy={true} smooth={true} offset={0} duration={500}>
-        Contact
-      </Link></li>
+     
     </ul>
 
   return (
@@ -32,7 +30,7 @@ const Nav = ({ isDarkMode, handleToggle }) => {
       <div className={`header ${!isDarkMode ?'light' : ''}`}>
         <h1>
           <Link activeClass="active" to="home" spy={true} smooth={true} offset={-80} duration={500}>
-            Favour
+         PS
           </Link>
         </h1>
         

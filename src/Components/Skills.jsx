@@ -13,14 +13,8 @@ const Skills = () => {
           <SiJavascript />
           <p>JavaScript</p>
         </div>
-        <div className="ts">
-          <SiTypescript />
-          <p>TypeScript</p>
-        </div>
-        <div >
-          <SiNextdotjs />
-          <p>Next JS</p>
-        </div>
+        
+       
         <div className="html">
           <SiHtml5 />
           <p>HTML</p>
@@ -37,18 +31,12 @@ const Skills = () => {
           <SiNodedotjs />
           <p>Node JS</p>
         </div>
-        <div className="fig">
-          <SiFigma />
-          <p>Figma</p>
-        </div>
+      
         <div className="mon">
           <SiMongodb />
           <p>MongoDB</p>
         </div>
-        <div className="fire">
-          <SiFirebase />
-          <p>Firebase</p>
-        </div>
+       
       </div>
     </div>
   )
